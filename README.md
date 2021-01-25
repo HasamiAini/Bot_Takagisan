@@ -24,7 +24,7 @@ case '!semangat':
 ```
 `` 
 for image based
-case 'kpop':
+case '!kpop':
         if (!isGroupMsg) return client.reply(from, 'Gomenasai（>﹏<）Fitur Ini Harus Digroup..!', id)
             if (args.length == 0) return client.reply(from, `Untuk menggunakan ${prefix}kpop\nSilahkan ketik: ${prefix}kpop [query]\nContoh: ${prefix}kpop bts\n\nquery yang tersedia:\nblackpink, exo, bts, twice`, id)
             if (args[0] == 'blackpink' || args[0] == 'exo' || args[0] == 'bts' || args[0] == 'twice') {
